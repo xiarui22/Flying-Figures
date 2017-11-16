@@ -1,0 +1,35 @@
+﻿  AudioEngine.cpp
+  WaveBankReader.cpp
+  WaveBank.cpp
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\wavebank.cpp(472): error C2511: 'bool DirectX::WaveBank::FillSubmitBuffer(int,XAUDIO2_BUFFER &,XAUDIO2_BUFFER_WMA &) const': overloaded member function not found in 'DirectX::WaveBank'
+  e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\inc\audio.h(288): note: see declaration of 'DirectX::WaveBank'
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\wavebank.cpp(476): error C2227: left of '->mReader' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\wavebank.cpp(476): error C2228: left of '.GetWaveData' must have class/struct/union
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\wavebank.cpp(480): error C2227: left of '->mReader' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\wavebank.cpp(480): error C2228: left of '.GetMetadata' must have class/struct/union
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\wavebank.cpp(487): error C2227: left of '->mReader' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\wavebank.cpp(487): error C2228: left of '.GetSeekTable' must have class/struct/union
+  WAVFileReader.cpp
+  SoundEffectInstance.cpp
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffectinstance.cpp(146): error C2660: 'DirectX::WaveBank::FillSubmitBuffer': function does not take 3 arguments
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffectinstance.cpp(151): error C2660: 'DirectX::SoundEffect::FillSubmitBuffer': function does not take 2 arguments
+  SoundEffect.cpp
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(431): error C2511: 'DirectX::SoundEffect::SoundEffect(DirectX::AudioEngine *,std::unique_ptr<uint8_t [],std::default_delete<_Ty>> &,const WAVEFORMATEX *,const uint8_t *,std::size_t,const uint32_t *,std::size_t)': overloaded member function not found in 'DirectX::SoundEffect'
+          with
+          [
+              _Ty=uint8_t []
+          ]
+  e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\inc\audio.h(347): note: see declaration of 'DirectX::SoundEffect'
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(432): error C2227: left of '->Initialize' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(580): error C2511: 'bool DirectX::SoundEffect::FillSubmitBuffer(XAUDIO2_BUFFER &,XAUDIO2_BUFFER_WMA &) const': overloaded member function not found in 'DirectX::SoundEffect'
+  e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\inc\audio.h(347): note: see declaration of 'DirectX::SoundEffect'
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(584): error C2227: left of '->mAudioBytes' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(585): error C2227: left of '->mStartAudio' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(586): error C2227: left of '->mLoopStart' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(587): error C2227: left of '->mLoopLength' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(589): error C2227: left of '->mWaveFormat' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(592): error C2227: left of '->mSeekCount' must point to class/struct/union/generic type
+e:\academic\rit_spring 2017\ggp\final project\0513merge\dx11starter\directxtk\audio\soundeffect.cpp(593): error C2227: left of '->mSeekTable' must point to class/struct/union/generic type
+  SoundCommon.cpp
+  DynamicSoundEffectInstance.cpp
+  Generating Code...
